@@ -9,10 +9,10 @@ class fizzBuzz:
             if(i%3 == 0 and i%5 == 0):
                 result.append("FizzBuzz");
             #checks if divisible by 3 
-            elif(i%3 == 0 and i%5 != 0):
+            elif(i%3 == 0 ):
                 result.append("Fizz");
             #checks if divisible by 5
-            elif(i%3 != 0 and i%5 == 0):
+            elif(i%3 != 0 ):
                 result.append("Buzz");
             #if number is not divisible by either
             else:
